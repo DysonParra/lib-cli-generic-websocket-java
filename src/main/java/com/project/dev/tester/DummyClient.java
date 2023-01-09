@@ -12,11 +12,11 @@
  * @version 1.0     Implementación realizada.
  * @version 2.0     Documentación agregada.
  */
-package com.rtc.dummy;
+package com.project.dev.tester;
 
-import com.rtc.dummy.websocket.tcp.generic.client.ClientConnectionListener;
-import com.rtc.dummy.websocket.tcp.generic.client.ClientMessageListener;
-import com.rtc.dummy.websocket.tcp.generic.client.GenericClient;
+import com.project.dev.dummy.websocket.tcp.generic.client.ClientConnectionListener;
+import com.project.dev.dummy.websocket.tcp.generic.client.ClientMessageListener;
+import com.project.dev.dummy.websocket.tcp.generic.client.GenericClient;
 import java.net.Socket;
 import java.util.Scanner;
 

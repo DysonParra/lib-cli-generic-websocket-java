@@ -12,13 +12,13 @@
  * @version 1.0     Implementación realizada.
  * @version 2.0     Documentación agregada.
  */
-package com.rtc.dummy;
+package com.project.dev.tester;
 
-import com.rtc.dummy.websocket.tcp.generic.server.GenericServer;
-import com.rtc.dummy.websocket.tcp.generic.server.ServerConnectionListener;
-import com.rtc.dummy.websocket.tcp.generic.server.ServerMessageListener;
-import com.rtc.dummy.websocket.tcp.generic.server.ServerScheduledMessage;
-import com.rtc.dummy.websocket.tcp.generic.server.ThreadServer;
+import com.project.dev.dummy.websocket.tcp.generic.server.GenericServer;
+import com.project.dev.dummy.websocket.tcp.generic.server.ServerConnectionListener;
+import com.project.dev.dummy.websocket.tcp.generic.server.ServerMessageListener;
+import com.project.dev.dummy.websocket.tcp.generic.server.ServerScheduledMessage;
+import com.project.dev.dummy.websocket.tcp.generic.server.ThreadServer;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;

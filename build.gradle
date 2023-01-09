@@ -18,7 +18,7 @@ plugins {
 apply plugin: 'com.google.cloud.tools.appengine'
 apply plugin: "io.spring.dependency-management"
 
-group = 'com.rtc.dummy'
+group = 'com.project.dev'
 def rootPackage = "${group}".replaceAll("\\.", "/")
 
 def mainClass = "${group}.Application"

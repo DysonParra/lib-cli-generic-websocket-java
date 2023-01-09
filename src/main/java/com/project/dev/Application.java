@@ -12,8 +12,10 @@
  * @version 1.0     Implementación realizada.
  * @version 2.0     Documentación agregada.
  */
-package com.rtc.dummy;
+package com.project.dev;
 
+import com.project.dev.tester.DummyClient;
+import com.project.dev.tester.DummyServer;
 import java.util.Scanner;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

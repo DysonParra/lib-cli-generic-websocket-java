@@ -12,7 +12,7 @@
  * @version 1.0     Implementación realizada.
  * @version 2.0     Documentación agregada.
  */
-package com.rtc.dummy.websocket.tcp.generic.server;
+package com.project.dev.dummy.websocket.tcp.generic.server;
 
 import java.util.List;
 import lombok.AccessLevel;

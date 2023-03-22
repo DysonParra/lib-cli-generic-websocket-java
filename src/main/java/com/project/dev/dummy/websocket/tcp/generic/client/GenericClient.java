@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericClient} se encarga de realizar tareas específicas.
+ * @fileoverview    {GenericClient}
  *
  * @version         2.0
  *

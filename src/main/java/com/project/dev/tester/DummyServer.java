@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {DummyServer} se encarga de realizar tareas específicas.
+ * @fileoverview    {DummyServer}
  *
  * @version         2.0
  *

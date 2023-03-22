@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericServer} se encarga de realizar tareas específicas.
+ * @fileoverview    {GenericServer}
  *
  * @version         2.0
  *

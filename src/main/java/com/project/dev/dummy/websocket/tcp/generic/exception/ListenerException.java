@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ListenerException} se encarga de realizar tareas específicas.
+ * @fileoverview    {ListenerException}
  *
  * @version         2.0
  *

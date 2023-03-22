@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServerScheduledMessage} se encarga de realizar tareas específicas.
+ * @fileoverview    {ServerScheduledMessage}
  *
  * @version         2.0
  *

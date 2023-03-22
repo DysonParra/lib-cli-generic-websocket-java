@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ClientMessageListener} se encarga de realizar tareas específicas.
+ * @fileoverview    {ClientMessageListener}
  *
  * @version         2.0
  *

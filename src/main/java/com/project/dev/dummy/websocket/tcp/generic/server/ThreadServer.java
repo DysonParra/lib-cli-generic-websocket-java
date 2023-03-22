@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ThreadServer} se encarga de realizar tareas específicas.
+ * @fileoverview    {ThreadServer}
  *
  * @version         2.0
  *

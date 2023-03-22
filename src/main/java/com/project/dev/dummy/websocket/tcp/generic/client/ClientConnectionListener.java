@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ClientConnectionListener} se encarga de realizar tareas específicas.
+ * @fileoverview    {ClientConnectionListener}
  *
  * @version         2.0
  *

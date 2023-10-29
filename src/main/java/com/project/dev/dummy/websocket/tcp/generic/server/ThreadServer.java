@@ -29,7 +29,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * TODO: Definición de {@code ThreadServer}.
+ * TODO: Description of {@code ThreadServer}.
  *
  * @author Dyson Parra
  * @since 11
@@ -55,7 +55,7 @@ public class ThreadServer implements Runnable {
     protected int nullMessages = 0;
 
     /**
-     * TODO: Definición de {@code ThreadServer}.
+     * TODO: Description of {@code ThreadServer}.
      *
      * @param genericServer
      * @param sender
@@ -70,7 +70,7 @@ public class ThreadServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code ThreadServer}.
+     * TODO: Description of {@code ThreadServer}.
      *
      * @param genericServer
      * @param sender
@@ -83,7 +83,7 @@ public class ThreadServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code ThreadServer}.
+     * TODO: Description of {@code ThreadServer}.
      *
      * @param genericServer
      * @param sender
@@ -97,7 +97,7 @@ public class ThreadServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code kill}.
+     * TODO: Description of {@code kill}.
      *
      */
     public void kill() {
@@ -109,7 +109,7 @@ public class ThreadServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code sendMessageToClient}.
+     * TODO: Description of {@code sendMessageToClient}.
      *
      * @param message
      * @param maxTries
@@ -134,7 +134,7 @@ public class ThreadServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code sendMessageToAllClients}.
+     * TODO: Description of {@code sendMessageToAllClients}.
      *
      * @param message
      * @param sendToSender
@@ -148,7 +148,7 @@ public class ThreadServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code run}.
+     * TODO: Description of {@code run}.
      *
      */
     @Override

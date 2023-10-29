@@ -15,7 +15,7 @@
 package com.project.dev.dummy.websocket.tcp.generic.server;
 
 /**
- * TODO: Definición de {@code ServerConnectionListener}.
+ * TODO: Description of {@code ServerConnectionListener}.
  *
  * @author Dyson Parra
  * @since 11
@@ -23,14 +23,14 @@ package com.project.dev.dummy.websocket.tcp.generic.server;
 public interface ServerConnectionListener {
 
     /**
-     * TODO: Definición de {@code onConnectedClient}.
+     * TODO: Description of {@code onConnectedClient}.
      *
      * @param connected
      */
     public abstract void onConnectedClient(ThreadServer connected);
 
     /**
-     * TODO: Definición de {@code onDisconnectedClient}.
+     * TODO: Description of {@code onDisconnectedClient}.
      *
      * @param disconnected
      */

@@ -27,7 +27,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * TODO: Definición de {@code GenericServer}.
+ * TODO: Description of {@code GenericServer}.
  *
  * @author Dyson Parra
  * @since 11
@@ -63,7 +63,7 @@ public class GenericServer implements Runnable {
     protected final Object synchronizer = new Object();
 
     /**
-     * TODO: Definición de {@code GenericServer}.
+     * TODO: Description of {@code GenericServer}.
      *
      */
     public GenericServer() {
@@ -72,7 +72,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code GenericServer}.
+     * TODO: Description of {@code GenericServer}.
      *
      * @param serverPort
      */
@@ -83,7 +83,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code GenericServer}.
+     * TODO: Description of {@code GenericServer}.
      *
      * @param serverPort
      * @param processListenersOnOtherThread
@@ -94,7 +94,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code setName}.
+     * TODO: Description of {@code setName}.
      *
      * @param name
      */
@@ -104,7 +104,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code setServerPort}.
+     * TODO: Description of {@code setServerPort}.
      *
      * @param serverPort
      */
@@ -125,7 +125,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code setOnMessageListener}.
+     * TODO: Description of {@code setOnMessageListener}.
      *
      * @param onMessageListener
      */
@@ -135,7 +135,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code setOnConnectionListener}.
+     * TODO: Description of {@code setOnConnectionListener}.
      *
      * @param onConnectionListener
      */
@@ -145,7 +145,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code setScheduledMessage}.
+     * TODO: Description of {@code setScheduledMessage}.
      *
      * @param ScheduledMessage
      */
@@ -162,7 +162,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code startScheduledMessages}.
+     * TODO: Description of {@code startScheduledMessages}.
      *
      * @return
      */
@@ -186,7 +186,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code stopScheduledMessages}.
+     * TODO: Description of {@code stopScheduledMessages}.
      *
      * @return
      */
@@ -203,7 +203,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code init}.
+     * TODO: Description of {@code init}.
      *
      */
     public void init() {
@@ -228,7 +228,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code start}.
+     * TODO: Description of {@code start}.
      *
      * @return
      */
@@ -245,7 +245,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code stop}.
+     * TODO: Description of {@code stop}.
      *
      * @return
      */
@@ -262,7 +262,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code killServer}.
+     * TODO: Description of {@code killServer}.
      *
      */
     public void killServer() {
@@ -281,7 +281,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code sendMessageToAllClients}.
+     * TODO: Description of {@code sendMessageToAllClients}.
      *
      * @param message
      * @param maxTries
@@ -317,7 +317,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code run}.
+     * TODO: Description of {@code run}.
      *
      */
     @Override

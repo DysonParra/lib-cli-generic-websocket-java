@@ -15,7 +15,7 @@
 package com.project.dev.dummy.websocket.tcp.generic.server;
 
 /**
- * TODO: Definición de {@code ServerMessageListener}.
+ * TODO: Description of {@code ServerMessageListener}.
  *
  * @author Dyson Parra
  * @since 11
@@ -23,7 +23,7 @@ package com.project.dev.dummy.websocket.tcp.generic.server;
 public interface ServerMessageListener {
 
     /**
-     * TODO: Definición de {@code onRequest}.
+     * TODO: Description of {@code onRequest}.
      *
      * @param message
      * @param receiver

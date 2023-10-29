@@ -17,7 +17,7 @@ package com.project.dev.dummy.websocket.tcp.generic.client;
 import java.net.Socket;
 
 /**
- * TODO: Definición de {@code ClientMessageListener}.
+ * TODO: Description of {@code ClientMessageListener}.
  *
  * @author Dyson Parra
  * @since 11
@@ -25,7 +25,7 @@ import java.net.Socket;
 public interface ClientMessageListener {
 
     /**
-     * TODO: Definición de {@code onMessage}.
+     * TODO: Description of {@code onMessage}.
      *
      * @param client
      * @param sentMessage
@@ -34,7 +34,7 @@ public interface ClientMessageListener {
     public abstract void onMessage(GenericClient client, Socket server, String sentMessage);
 
     /**
-     * TODO: Definición de {@code onResponse}.
+     * TODO: Description of {@code onResponse}.
      *
      * @param client
      * @param response

@@ -17,7 +17,7 @@ package com.project.dev.dummy.websocket.tcp.generic.client;
 import java.net.Socket;
 
 /**
- * TODO: Definición de {@code ClientConnectionListener}.
+ * TODO: Description of {@code ClientConnectionListener}.
  *
  * @author Dyson Parra
  * @since 11
@@ -25,7 +25,7 @@ import java.net.Socket;
 public interface ClientConnectionListener {
 
     /**
-     * TODO: Definición de {@code onConnectedClient}.
+     * TODO: Description of {@code onConnectedClient}.
      *
      * @param client
      * @param server
@@ -33,7 +33,7 @@ public interface ClientConnectionListener {
     public abstract void onConnectedClient(GenericClient client, Socket server);
 
     /**
-     * TODO: Definición de {@code onDisconnectedClient}.
+     * TODO: Description of {@code onDisconnectedClient}.
      *
      * @param client
      * @param server
@@ -41,7 +41,7 @@ public interface ClientConnectionListener {
     public abstract void onDisconnectedClient(GenericClient client, Socket server);
 
     /**
-     * TODO: Definición de {@code onErrorConnectingToServer}.
+     * TODO: Description of {@code onErrorConnectingToServer}.
      *
      * @param client
      * @param tries

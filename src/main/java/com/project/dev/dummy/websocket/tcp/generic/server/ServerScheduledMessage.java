@@ -20,7 +20,7 @@ import lombok.Data;
 import lombok.Setter;
 
 /**
- * TODO: Definición de {@code ServerScheduledMessage}.
+ * TODO: Description of {@code ServerScheduledMessage}.
  *
  * @author Dyson Parra
  * @since 11
@@ -42,7 +42,7 @@ public abstract class ServerScheduledMessage implements Runnable {
     private final Object synchronizer = new Object();
 
     /**
-     * TODO: Definición de {@code ServerScheduledMessage}.
+     * TODO: Description of {@code ServerScheduledMessage}.
      *
      */
     public ServerScheduledMessage() {
@@ -50,7 +50,7 @@ public abstract class ServerScheduledMessage implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code ServerScheduledMessage}.
+     * TODO: Description of {@code ServerScheduledMessage}.
      *
      * @param timeBetweenMessage
      */
@@ -59,7 +59,7 @@ public abstract class ServerScheduledMessage implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code setTimeBetweenMessage}.
+     * TODO: Description of {@code setTimeBetweenMessage}.
      *
      * @param timeBetweenMessage
      */
@@ -73,7 +73,7 @@ public abstract class ServerScheduledMessage implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code startScheduling}.
+     * TODO: Description of {@code startScheduling}.
      *
      * @return
      */
@@ -91,7 +91,7 @@ public abstract class ServerScheduledMessage implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code stopScheduling}.
+     * TODO: Description of {@code stopScheduling}.
      *
      * @return
      */
@@ -109,7 +109,7 @@ public abstract class ServerScheduledMessage implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code killScheduling}.
+     * TODO: Description of {@code killScheduling}.
      *
      */
     public void killScheduling() {
@@ -120,14 +120,14 @@ public abstract class ServerScheduledMessage implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code calculateMesageToSend}.
+     * TODO: Description of {@code calculateMesageToSend}.
      *
      * @return
      */
     public abstract List<String> calculateMesageToSend();
 
     /**
-     * TODO: Definición de {@code run}.
+     * TODO: Description of {@code run}.
      *
      */
     @Override

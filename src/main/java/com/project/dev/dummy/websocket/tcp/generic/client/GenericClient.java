@@ -29,7 +29,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * TODO: Definición de {@code GenericClient}.
+ * TODO: Description of {@code GenericClient}.
  *
  * @author Dyson Parra
  * @since 11
@@ -85,7 +85,7 @@ public class GenericClient implements Runnable {
     protected final Object synchronizer = new Object();
 
     /**
-     * TODO: Definición de {@code GenericClient}.
+     * TODO: Description of {@code GenericClient}.
      *
      */
     public GenericClient() {
@@ -95,7 +95,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code GenericClient}.
+     * TODO: Description of {@code GenericClient}.
      *
      * @param serverIpAddress
      */
@@ -109,7 +109,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code GenericClient}.
+     * TODO: Description of {@code GenericClient}.
      *
      * @param serverIpAddress
      * @param serverPort
@@ -121,7 +121,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code GenericClient}.
+     * TODO: Description of {@code GenericClient}.
      *
      * @param serverIpAddress
      * @param serverPort
@@ -133,7 +133,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code GenericClient}.
+     * TODO: Description of {@code GenericClient}.
      *
      * @param serverIpAddress
      * @param serverPort
@@ -146,7 +146,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code GenericClient}.
+     * TODO: Description of {@code GenericClient}.
      *
      * @param serverIpAddress
      * @param serverPort
@@ -160,7 +160,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code GenericClient}.
+     * TODO: Description of {@code GenericClient}.
      *
      * @param serverIpAddress
      * @param serverPort
@@ -175,7 +175,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code updateName}.
+     * TODO: Description of {@code updateName}.
      *
      */
     private void updateName() {
@@ -183,7 +183,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code setServerIpAddress}.
+     * TODO: Description of {@code setServerIpAddress}.
      *
      * @param serverIpAddress
      */
@@ -194,7 +194,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code setServerPort}.
+     * TODO: Description of {@code setServerPort}.
      *
      * @param serverPort
      */
@@ -205,7 +205,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code initialize}.
+     * TODO: Description of {@code initialize}.
      *
      * @return
      */
@@ -265,7 +265,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code connectToServer}.
+     * TODO: Description of {@code connectToServer}.
      *
      * @return
      */
@@ -316,7 +316,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code init}.
+     * TODO: Description of {@code init}.
      *
      */
     public void init() {
@@ -324,7 +324,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code start}.
+     * TODO: Description of {@code start}.
      *
      * @return
      */
@@ -341,7 +341,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code stop}.
+     * TODO: Description of {@code stop}.
      *
      * @return
      */
@@ -366,7 +366,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code killClient}.
+     * TODO: Description of {@code killClient}.
      *
      */
     public void killClient() {
@@ -377,7 +377,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code sendStackMessages}.
+     * TODO: Description of {@code sendStackMessages}.
      *
      * @return
      */
@@ -416,7 +416,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code sendMessage}.
+     * TODO: Description of {@code sendMessage}.
      *
      * @param message
      * @return
@@ -444,7 +444,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code cleanQueueMessages}.
+     * TODO: Description of {@code cleanQueueMessages}.
      *
      * @return
      */
@@ -454,7 +454,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Definición de {@code run}.
+     * TODO: Description of {@code run}.
      *
      */
     @Override

@@ -15,7 +15,7 @@
 package com.project.dev.dummy.websocket.tcp.generic.exception;
 
 /**
- * TODO: Definición de {@code ListenerException}.
+ * TODO: Description of {@code ListenerException}.
  *
  * @author Dyson Parra
  * @since 11
@@ -23,7 +23,7 @@ package com.project.dev.dummy.websocket.tcp.generic.exception;
 public class ListenerException extends Exception {
 
     /**
-     * TODO: Definición de {@code ListenerException}.
+     * TODO: Description of {@code ListenerException}.
      *
      * @param errorMessage
      * @param err

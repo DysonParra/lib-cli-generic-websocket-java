@@ -21,7 +21,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 /**
- * TODO: Definición de {@code DummyClient}.
+ * TODO: Description of {@code DummyClient}.
  *
  * @author Dyson Parra
  * @since 11
@@ -40,7 +40,7 @@ public class DummyClient {
     private static int DELAY_TIME = 500;
 
     /**
-     * TODO: Definición de {@code startTcpClient}.
+     * TODO: Description of {@code startTcpClient}.
      *
      */
     public static void startTcpClient() {

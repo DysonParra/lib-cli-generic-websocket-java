@@ -34,7 +34,7 @@ import java.util.Scanner;
 import javax.imageio.ImageIO;
 
 /**
- * TODO: Definición de {@code DummyServer}.
+ * TODO: Description of {@code DummyServer}.
  *
  * @author Dyson Parra
  * @since 11
@@ -73,7 +73,7 @@ public class DummyServer {
     private static boolean getPlateFrame = false;
 
     /**
-     * TODO: Definición de {@code startTcpServer}.
+     * TODO: Description of {@code startTcpServer}.
      *
      */
     public static void startTcpServer() {

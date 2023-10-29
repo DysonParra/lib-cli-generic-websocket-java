@@ -18,7 +18,7 @@ package com.project.dev.dummy.websocket.tcp.generic.exception;
  * TODO: Definición de {@code ListenerException}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public class ListenerException extends Exception {
 

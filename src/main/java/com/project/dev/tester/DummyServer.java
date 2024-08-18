@@ -230,13 +230,13 @@ public class DummyServer {
                         if (randomNroClass)
                             nroClass = classes[(int) ((Math.random() * classes.length) + 0)];
                         Date date;
-                        String actualDate;
+                        String currentDate;
                         int axleWeight;
                         float speed;
                         date = new Date();
-                        actualDate = DATE_FORMAT.format(date);
-                        info.add(actualDate);
-                        info.add(actualDate);
+                        currentDate = DATE_FORMAT.format(date);
+                        info.add(currentDate);
+                        info.add(currentDate);
                         if (randomAxles)
                             axlesQuantity = (int) ((Math.random() * 5) + 1);
 
@@ -300,8 +300,8 @@ public class DummyServer {
             case TYPE_DISPLAY:
                 genericServer.setOnMessageListener(new ServerMessageListener() {
 
-                    String actualMessage = "";
-                    int actualSpeed = 100;
+                    String currentMessage = "";
+                    int currentSpeed = 100;
 
                     @Override
                     public void onRequest(String message, ThreadServer receiver) {
@@ -309,25 +309,25 @@ public class DummyServer {
                                 + "' from port " + receiver.getSender().getPort());
 
                         if (message.matches(SPEED_PATTERN)) {
-                            actualSpeed = Integer.parseInt(message.substring(4, 6));
-                            System.out.println("New speed is " + actualSpeed);
+                            currentSpeed = Integer.parseInt(message.substring(4, 6));
+                            System.out.println("New speed is " + currentSpeed);
                         } else if (message.matches(MESSAGE_PATTERN)) {
-                            actualMessage = message.substring(8, message.length() - 1);
-                            System.out.println("New message is " + "\"" + actualMessage + "\"");
+                            currentMessage = message.substring(8, message.length() - 1);
+                            System.out.println("New message is " + "\"" + currentMessage + "\"");
                         }
 
-                        System.out.println("SPEED: " + actualSpeed);
+                        System.out.println("SPEED: " + currentSpeed);
                         System.out.print("\u250C");
-                        for (int i = 0; i < actualMessage.length() + 2; i++)
+                        for (int i = 0; i < currentMessage.length() + 2; i++)
                             System.out.print("\u2500");
                         System.out.println("\u2510");
 
                         System.out.print("\u2502 ");
-                        System.out.print(actualMessage);
+                        System.out.print(currentMessage);
                         System.out.println(" \u2502");
 
                         System.out.print("\u2514");
-                        for (int i = 0; i < actualMessage.length() + 2; i++)
+                        for (int i = 0; i < currentMessage.length() + 2; i++)
                             System.out.print("\u2500");
                         System.out.println("\u2518");
                     }

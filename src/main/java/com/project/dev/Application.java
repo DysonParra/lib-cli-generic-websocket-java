@@ -17,10 +17,6 @@ package com.project.dev;
 import com.project.dev.tester.DummyClient;
 import com.project.dev.tester.DummyServer;
 import java.util.Scanner;
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * TODO: Description of {@code Application}.
@@ -28,9 +24,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * @author Dyson Parra
  * @since 11
  */
-@SpringBootApplication
-@EnableScheduling
-public class Application implements CommandLineRunner {
+public class Application {
 
     /**
      * Entrada principal del sistema.
@@ -38,17 +32,6 @@ public class Application implements CommandLineRunner {
      * @param args argumentos de la linea de comandos.
      */
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
-    }
-
-    /**
-     * TODO: Description of {@code run}.
-     *
-     * @param args
-     * @throws java.lang.Exception
-     */
-    @Override
-    public void run(String[] args) throws Exception {
         String type;
         Scanner sc = new Scanner(System.in);
 

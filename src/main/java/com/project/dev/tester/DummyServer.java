@@ -495,21 +495,21 @@ public class DummyServer {
                                     randomNroClass = true;
                                 } else if (reply.matches(CATEG_PATTERN)) {
                                     randomNroClass = false;
-                                    nroClass = Integer.parseInt(reply.replace("categ ", ""));
+                                    nroClass = Integer.valueOf(reply.replace("categ ", ""));
                                     System.out.println("New category: " + nroClass);
                                 } else if (reply.matches(AXLES_RAND_PATTERN)) {
                                     System.out.println("Axles are random now");
                                     randomAxles = true;
                                 } else if (reply.matches(AXLES_PATTERN)) {
                                     randomAxles = false;
-                                    axlesQuantity = Integer.parseInt(reply.replace("axles ", ""));
+                                    axlesQuantity = Integer.valueOf(reply.replace("axles ", ""));
                                     System.out.println("New Axles quantity: " + axlesQuantity);
                                 } else if (reply.matches(WEIGHT_RAND_PATTERN)) {
                                     System.out.println("Weight is random now");
                                     randomTotalWeight = true;
                                 } else if (reply.matches(WEIGHT_PATTERN)) {
                                     randomTotalWeight = false;
-                                    totalWeight = Integer.parseInt(reply.replace("weight ", ""));
+                                    totalWeight = Integer.valueOf(reply.replace("weight ", ""));
                                     System.out.println("New Weight is: " + totalWeight);
                                 } else
                                     System.out.println("Unknown pattern specified.");
@@ -521,14 +521,14 @@ public class DummyServer {
                                     randomNroScale = true;
                                 } else if (reply.matches(SCALE_PATTERN)) {
                                     randomNroScale = false;
-                                    nroScale = Integer.parseInt(reply.replace("scale ", ""));
+                                    nroScale = Integer.valueOf(reply.replace("scale ", ""));
                                     System.out.println("New Scale is: " + nroScale);
                                 } else if (reply.matches(WEIGHT_RAND_PATTERN)) {
                                     System.out.println("Weight is random now");
                                     randomWeight = true;
                                 } else if (reply.matches(WEIGHT_PATTERN)) {
                                     randomWeight = false;
-                                    weight = Integer.parseInt(reply.replace("weight ", ""));
+                                    weight = Integer.valueOf(reply.replace("weight ", ""));
                                     System.out.println("New Weight is: " + weight);
                                 } else
                                     System.out.println("Unknown pattern specified.");
@@ -540,7 +540,7 @@ public class DummyServer {
                                     randomWeight = true;
                                 } else if (reply.matches(WEIGHT_PATTERN)) {
                                     randomWeight = false;
-                                    weight = Integer.parseInt(reply.replace("weight ", ""));
+                                    weight = Integer.valueOf(reply.replace("weight ", ""));
                                     System.out.println("New Weight is: " + weight);
                                 } else
                                     System.out.println("Unknown pattern specified.");
@@ -551,7 +551,7 @@ public class DummyServer {
 
                             case TYPE_PLATE:
                                 if (reply.matches(NRO_CAM_PATTERN)) {
-                                    nroCamera = Integer.parseInt(reply.replace("nroCam ", ""));
+                                    nroCamera = Integer.valueOf(reply.replace("nroCam ", ""));
                                     System.out.println("New nro camera: " + nroCamera);
                                 } else if (reply.matches(PLATE_RAND_PATTERN)) {
                                     System.out.println("Plate is random now");
@@ -596,6 +596,12 @@ public class DummyServer {
         System.out.println("Process finished...");
     }
 
+    /**
+     * TODO: Description of {@code getPlateBase64}.
+     *
+     * @param plate
+     * @return 
+     */
     public static String getPlateBase64(String plate) {
         BufferedImage image = new BufferedImage(200, 80, BufferedImage.TYPE_INT_ARGB);
         Graphics2D graphics2d = image.createGraphics();

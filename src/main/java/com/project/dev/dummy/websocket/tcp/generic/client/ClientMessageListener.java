@@ -20,7 +20,7 @@ import java.net.Socket;
  * TODO: Description of {@code ClientMessageListener}.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public interface ClientMessageListener {
 

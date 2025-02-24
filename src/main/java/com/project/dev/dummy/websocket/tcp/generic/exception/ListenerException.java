@@ -18,7 +18,7 @@ package com.project.dev.dummy.websocket.tcp.generic.exception;
  * TODO: Description of {@code ListenerException}.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class ListenerException extends Exception {
 

@@ -18,7 +18,7 @@ package com.project.dev.dummy.websocket.tcp.generic.server;
  * TODO: Description of {@code ServerMessageListener}.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public interface ServerMessageListener {
 

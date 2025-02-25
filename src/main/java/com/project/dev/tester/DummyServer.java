@@ -600,7 +600,7 @@ public class DummyServer {
      * TODO: Description of {@code getPlateBase64}.
      *
      * @param plate
-     * @return 
+     * @return
      */
     public static String getPlateBase64(String plate) {
         BufferedImage image = new BufferedImage(200, 80, BufferedImage.TYPE_INT_ARGB);

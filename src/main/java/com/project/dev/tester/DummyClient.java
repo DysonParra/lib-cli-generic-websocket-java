@@ -40,7 +40,7 @@ public class DummyClient {
     private static int DELAY_TIME = 500;
 
     /**
-     * TODO: Description of {@code startTcpClient}.
+     * TODO: Description of method {@code startTcpClient}.
      *
      */
     public static void startTcpClient() {

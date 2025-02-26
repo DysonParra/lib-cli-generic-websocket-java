@@ -85,7 +85,7 @@ public class GenericClient implements Runnable {
     protected final Object synchronizer = new Object();
 
     /**
-     * TODO: Description of {@code GenericClient}.
+     * TODO: Description of method {@code GenericClient}.
      *
      */
     public GenericClient() {
@@ -95,7 +95,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code GenericClient}.
+     * TODO: Description of method {@code GenericClient}.
      *
      * @param serverIpAddress
      */
@@ -109,7 +109,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code GenericClient}.
+     * TODO: Description of method {@code GenericClient}.
      *
      * @param serverIpAddress
      * @param serverPort
@@ -121,7 +121,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code GenericClient}.
+     * TODO: Description of method {@code GenericClient}.
      *
      * @param serverIpAddress
      * @param serverPort
@@ -133,7 +133,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code GenericClient}.
+     * TODO: Description of method {@code GenericClient}.
      *
      * @param serverIpAddress
      * @param serverPort
@@ -146,7 +146,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code GenericClient}.
+     * TODO: Description of method {@code GenericClient}.
      *
      * @param serverIpAddress
      * @param serverPort
@@ -160,7 +160,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code GenericClient}.
+     * TODO: Description of method {@code GenericClient}.
      *
      * @param serverIpAddress
      * @param serverPort
@@ -175,7 +175,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code updateName}.
+     * TODO: Description of method {@code updateName}.
      *
      */
     private void updateName() {
@@ -183,7 +183,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code setServerIpAddress}.
+     * TODO: Description of method {@code setServerIpAddress}.
      *
      * @param serverIpAddress
      */
@@ -194,7 +194,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code setServerPort}.
+     * TODO: Description of method {@code setServerPort}.
      *
      * @param serverPort
      */
@@ -205,7 +205,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code initialize}.
+     * TODO: Description of method {@code initialize}.
      *
      * @return
      */
@@ -265,7 +265,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code connectToServer}.
+     * TODO: Description of method {@code connectToServer}.
      *
      * @return
      */
@@ -316,7 +316,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code init}.
+     * TODO: Description of method {@code init}.
      *
      */
     public void init() {
@@ -324,7 +324,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code start}.
+     * TODO: Description of method {@code start}.
      *
      * @return
      */
@@ -341,7 +341,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code stop}.
+     * TODO: Description of method {@code stop}.
      *
      * @return
      */
@@ -366,7 +366,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code killClient}.
+     * TODO: Description of method {@code killClient}.
      *
      */
     public void killClient() {
@@ -377,7 +377,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code sendStackMessages}.
+     * TODO: Description of method {@code sendStackMessages}.
      *
      * @return
      */
@@ -416,7 +416,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code sendMessage}.
+     * TODO: Description of method {@code sendMessage}.
      *
      * @param message
      * @return
@@ -444,7 +444,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code cleanQueueMessages}.
+     * TODO: Description of method {@code cleanQueueMessages}.
      *
      * @return
      */
@@ -454,7 +454,7 @@ public class GenericClient implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code run}.
+     * TODO: Description of method {@code run}.
      *
      */
     @Override

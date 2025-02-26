@@ -25,7 +25,7 @@ import java.net.Socket;
 public interface ClientMessageListener {
 
     /**
-     * TODO: Description of {@code onMessage}.
+     * TODO: Description of method {@code onMessage}.
      *
      * @param client
      * @param sentMessage
@@ -34,7 +34,7 @@ public interface ClientMessageListener {
     public abstract void onMessage(GenericClient client, Socket server, String sentMessage);
 
     /**
-     * TODO: Description of {@code onResponse}.
+     * TODO: Description of method {@code onResponse}.
      *
      * @param client
      * @param response

@@ -55,7 +55,7 @@ public class ThreadServer implements Runnable {
     protected int nullMessages = 0;
 
     /**
-     * TODO: Description of {@code ThreadServer}.
+     * TODO: Description of method {@code ThreadServer}.
      *
      * @param genericServer
      * @param sender
@@ -70,7 +70,7 @@ public class ThreadServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code ThreadServer}.
+     * TODO: Description of method {@code ThreadServer}.
      *
      * @param genericServer
      * @param sender
@@ -83,7 +83,7 @@ public class ThreadServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code ThreadServer}.
+     * TODO: Description of method {@code ThreadServer}.
      *
      * @param genericServer
      * @param sender
@@ -97,7 +97,7 @@ public class ThreadServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code kill}.
+     * TODO: Description of method {@code kill}.
      *
      */
     public void kill() {
@@ -109,7 +109,7 @@ public class ThreadServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code sendMessageToClient}.
+     * TODO: Description of method {@code sendMessageToClient}.
      *
      * @param message
      * @param maxTries
@@ -134,7 +134,7 @@ public class ThreadServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code sendMessageToAllClients}.
+     * TODO: Description of method {@code sendMessageToAllClients}.
      *
      * @param message
      * @param sendToSender
@@ -148,7 +148,7 @@ public class ThreadServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code run}.
+     * TODO: Description of method {@code run}.
      *
      */
     @Override

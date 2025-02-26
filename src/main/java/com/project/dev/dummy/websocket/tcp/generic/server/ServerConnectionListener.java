@@ -23,14 +23,14 @@ package com.project.dev.dummy.websocket.tcp.generic.server;
 public interface ServerConnectionListener {
 
     /**
-     * TODO: Description of {@code onConnectedClient}.
+     * TODO: Description of method {@code onConnectedClient}.
      *
      * @param connected
      */
     public abstract void onConnectedClient(ThreadServer connected);
 
     /**
-     * TODO: Description of {@code onDisconnectedClient}.
+     * TODO: Description of method {@code onDisconnectedClient}.
      *
      * @param disconnected
      */

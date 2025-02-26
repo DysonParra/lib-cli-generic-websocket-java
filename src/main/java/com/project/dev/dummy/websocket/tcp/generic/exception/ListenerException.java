@@ -23,7 +23,7 @@ package com.project.dev.dummy.websocket.tcp.generic.exception;
 public class ListenerException extends Exception {
 
     /**
-     * TODO: Description of {@code ListenerException}.
+     * TODO: Description of method {@code ListenerException}.
      *
      * @param errorMessage
      * @param err

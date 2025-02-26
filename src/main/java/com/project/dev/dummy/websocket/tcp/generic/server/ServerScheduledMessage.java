@@ -42,7 +42,7 @@ public abstract class ServerScheduledMessage implements Runnable {
     private final Object synchronizer = new Object();
 
     /**
-     * TODO: Description of {@code ServerScheduledMessage}.
+     * TODO: Description of method {@code ServerScheduledMessage}.
      *
      */
     public ServerScheduledMessage() {
@@ -50,7 +50,7 @@ public abstract class ServerScheduledMessage implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code ServerScheduledMessage}.
+     * TODO: Description of method {@code ServerScheduledMessage}.
      *
      * @param timeBetweenMessage
      */
@@ -59,7 +59,7 @@ public abstract class ServerScheduledMessage implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code setTimeBetweenMessage}.
+     * TODO: Description of method {@code setTimeBetweenMessage}.
      *
      * @param timeBetweenMessage
      */
@@ -73,7 +73,7 @@ public abstract class ServerScheduledMessage implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code startScheduling}.
+     * TODO: Description of method {@code startScheduling}.
      *
      * @return
      */
@@ -91,7 +91,7 @@ public abstract class ServerScheduledMessage implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code stopScheduling}.
+     * TODO: Description of method {@code stopScheduling}.
      *
      * @return
      */
@@ -109,7 +109,7 @@ public abstract class ServerScheduledMessage implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code killScheduling}.
+     * TODO: Description of method {@code killScheduling}.
      *
      */
     public void killScheduling() {
@@ -120,14 +120,14 @@ public abstract class ServerScheduledMessage implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code calculateMesageToSend}.
+     * TODO: Description of method {@code calculateMesageToSend}.
      *
      * @return
      */
     public abstract List<String> calculateMesageToSend();
 
     /**
-     * TODO: Description of {@code run}.
+     * TODO: Description of method {@code run}.
      *
      */
     @Override

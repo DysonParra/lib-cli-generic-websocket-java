@@ -63,7 +63,7 @@ public class GenericServer implements Runnable {
     protected final Object synchronizer = new Object();
 
     /**
-     * TODO: Description of {@code GenericServer}.
+     * TODO: Description of method {@code GenericServer}.
      *
      */
     public GenericServer() {
@@ -72,7 +72,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code GenericServer}.
+     * TODO: Description of method {@code GenericServer}.
      *
      * @param serverPort
      */
@@ -83,7 +83,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code GenericServer}.
+     * TODO: Description of method {@code GenericServer}.
      *
      * @param serverPort
      * @param processListenersOnOtherThread
@@ -94,7 +94,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code setName}.
+     * TODO: Description of method {@code setName}.
      *
      * @param name
      */
@@ -104,7 +104,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code setServerPort}.
+     * TODO: Description of method {@code setServerPort}.
      *
      * @param serverPort
      */
@@ -125,7 +125,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code setOnMessageListener}.
+     * TODO: Description of method {@code setOnMessageListener}.
      *
      * @param onMessageListener
      */
@@ -135,7 +135,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code setOnConnectionListener}.
+     * TODO: Description of method {@code setOnConnectionListener}.
      *
      * @param onConnectionListener
      */
@@ -145,7 +145,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code setScheduledMessage}.
+     * TODO: Description of method {@code setScheduledMessage}.
      *
      * @param ScheduledMessage
      */
@@ -162,7 +162,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code startScheduledMessages}.
+     * TODO: Description of method {@code startScheduledMessages}.
      *
      * @return
      */
@@ -186,7 +186,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code stopScheduledMessages}.
+     * TODO: Description of method {@code stopScheduledMessages}.
      *
      * @return
      */
@@ -203,7 +203,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code init}.
+     * TODO: Description of method {@code init}.
      *
      */
     public void init() {
@@ -228,7 +228,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code start}.
+     * TODO: Description of method {@code start}.
      *
      * @return
      */
@@ -245,7 +245,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code stop}.
+     * TODO: Description of method {@code stop}.
      *
      * @return
      */
@@ -262,7 +262,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code killServer}.
+     * TODO: Description of method {@code killServer}.
      *
      */
     public void killServer() {
@@ -281,7 +281,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code sendMessageToAllClients}.
+     * TODO: Description of method {@code sendMessageToAllClients}.
      *
      * @param message
      * @param maxTries
@@ -317,7 +317,7 @@ public class GenericServer implements Runnable {
     }
 
     /**
-     * TODO: Description of {@code run}.
+     * TODO: Description of method {@code run}.
      *
      */
     @Override

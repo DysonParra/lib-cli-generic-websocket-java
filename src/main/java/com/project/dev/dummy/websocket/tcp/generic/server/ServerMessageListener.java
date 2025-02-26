@@ -23,7 +23,7 @@ package com.project.dev.dummy.websocket.tcp.generic.server;
 public interface ServerMessageListener {
 
     /**
-     * TODO: Description of {@code onRequest}.
+     * TODO: Description of method {@code onRequest}.
      *
      * @param message
      * @param receiver

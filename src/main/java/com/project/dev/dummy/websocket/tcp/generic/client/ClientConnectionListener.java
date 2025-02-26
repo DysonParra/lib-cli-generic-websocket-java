@@ -25,7 +25,7 @@ import java.net.Socket;
 public interface ClientConnectionListener {
 
     /**
-     * TODO: Description of {@code onConnectedClient}.
+     * TODO: Description of method {@code onConnectedClient}.
      *
      * @param client
      * @param server
@@ -33,7 +33,7 @@ public interface ClientConnectionListener {
     public abstract void onConnectedClient(GenericClient client, Socket server);
 
     /**
-     * TODO: Description of {@code onDisconnectedClient}.
+     * TODO: Description of method {@code onDisconnectedClient}.
      *
      * @param client
      * @param server
@@ -41,7 +41,7 @@ public interface ClientConnectionListener {
     public abstract void onDisconnectedClient(GenericClient client, Socket server);
 
     /**
-     * TODO: Description of {@code onErrorConnectingToServer}.
+     * TODO: Description of method {@code onErrorConnectingToServer}.
      *
      * @param client
      * @param tries

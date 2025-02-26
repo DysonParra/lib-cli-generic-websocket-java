@@ -73,7 +73,7 @@ public class DummyServer {
     private static boolean getPlateFrame = false;
 
     /**
-     * TODO: Description of {@code startTcpServer}.
+     * TODO: Description of method {@code startTcpServer}.
      *
      */
     public static void startTcpServer() {
@@ -597,7 +597,7 @@ public class DummyServer {
     }
 
     /**
-     * TODO: Description of {@code getPlateBase64}.
+     * TODO: Description of method {@code getPlateBase64}.
      *
      * @param plate
      * @return

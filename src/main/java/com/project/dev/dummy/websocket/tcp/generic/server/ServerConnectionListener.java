@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServerConnectionListener}
+ * @overview        {ServerConnectionListener}
  *
  * @version         2.0
  *

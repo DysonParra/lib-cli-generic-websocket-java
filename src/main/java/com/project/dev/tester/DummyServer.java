@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {DummyServer}
+ * @overview        {DummyServer}
  *
  * @version         2.0
  *
